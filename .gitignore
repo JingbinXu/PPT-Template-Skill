@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+
+# Generated presentations and workspaces
+PPT输出/
+build/
+qa/
+renders/
+source/
+*.pptx
+*.pptm
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Local editor and system files
+.DS_Store
+Thumbs.db
+~$*

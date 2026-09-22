@@ -1,0 +1,29 @@
+{
+  "title": "示例正式汇报",
+  "template_path": "C:\\path\\to\\visual_template.pptx",
+  "slides": [
+    {
+      "template_slide": 1,
+      "clear_template_text": true,
+      "blocks": [
+        {"kind": "text", "role": "title", "text": "示例正式汇报", "x": 2.0, "y": 2.0, "w": 9.3, "h": 0.8, "font_size": 30, "bold": true, "align": "center"}
+      ]
+    },
+    {
+      "template_slide": 2,
+      "clear_template_text": true,
+      "blocks": [
+        {"kind": "text", "role": "title", "text": "核心结论", "x": 1.2, "y": 0.6, "w": 10.8, "h": 0.6, "font_size": 26, "bold": true, "align": "left"},
+        {"kind": "text", "role": "body", "text": "• 结论一\n• 结论二\n• 结论三", "x": 1.4, "y": 1.6, "w": 10.4, "h": 3.4, "font_size": 18, "align": "left"}
+      ]
+    },
+    {
+      "template_slide": 2,
+      "clear_template_text": true,
+      "blocks": [
+        {"kind": "text", "role": "title", "text": "示例数据表", "x": 1.2, "y": 0.6, "w": 10.8, "h": 0.6, "font_size": 26, "bold": true, "align": "left"},
+        {"kind": "table", "role": "table", "x": 1.4, "y": 1.6, "w": 10.4, "h": 2.4, "headers": ["项目", "状态", "说明"], "rows": [["输入", "已提供", "内容大纲与视觉模板"], ["输出", "待生成", "可编辑 PPTX"]]}
+      ]
+    }
+  ]
+}

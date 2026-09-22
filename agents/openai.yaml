@@ -1,0 +1,6 @@
+interface:
+  display_name: "模板化正式 PPT"
+  short_description: "基于内容、结构与模板生成可编辑正式PPT"
+  default_prompt: "Use $template-ppt to create an editable formal deck from my outline and required visual template."
+policy:
+  allow_implicit_invocation: false
